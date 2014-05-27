@@ -22,6 +22,7 @@
 		84CB4F3A191CB23E000FF019 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CB4F19191CB23E000FF019 /* Cocoa.framework */; };
 		84CB4F42191CB23E000FF019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CB4F40191CB23E000FF019 /* InfoPlist.strings */; };
 		84CB4F44191CB23E000FF019 /* HandBrakeXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB4F43191CB23E000FF019 /* HandBrakeXTests.m */; };
+		84D994E61934980100C5978F /* HandBrakeCLI in Resources */ = {isa = PBXBuildFile; fileRef = 84D994E51934980100C5978F /* HandBrakeCLI */; };
 		84E9D7081922EECF00A71355 /* MovieConversionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9D7071922EECF00A71355 /* MovieConversionOperation.m */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		84CB4F3F191CB23E000FF019 /* HandBrakeXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandBrakeXTests-Info.plist"; sourceTree = "<group>"; };
 		84CB4F41191CB23E000FF019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84CB4F43191CB23E000FF019 /* HandBrakeXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandBrakeXTests.m; sourceTree = "<group>"; };
+		84D994E51934980100C5978F /* HandBrakeCLI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = HandBrakeCLI; sourceTree = "<group>"; };
 		84E9D7061922EECF00A71355 /* MovieConversionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConversionOperation.h; sourceTree = "<group>"; };
 		84E9D7071922EECF00A71355 /* MovieConversionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConversionOperation.m; sourceTree = "<group>"; };
 		84E9D74F1922FBA700A71355 /* MovieConversion+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MovieConversion+Private.h"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		84CB4F1F191CB23E000FF019 /* HandBrakeX */ = {
 			isa = PBXGroup;
 			children = (
+				84D994E51934980100C5978F /* HandBrakeCLI */,
 				84CB4F2B191CB23E000FF019 /* AppDelegate.h */,
 				84CB4F2C191CB23E000FF019 /* AppDelegate.m */,
 				84323A9D192211D20072C8C1 /* MovieConverter.h */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CB4F24191CB23E000FF019 /* InfoPlist.strings in Resources */,
+				84D994E61934980100C5978F /* HandBrakeCLI in Resources */,
 				84CB4F32191CB23E000FF019 /* Images.xcassets in Resources */,
 				84CB4F2A191CB23E000FF019 /* Credits.rtf in Resources */,
 				84CB4F30191CB23E000FF019 /* MainMenu.xib in Resources */,
