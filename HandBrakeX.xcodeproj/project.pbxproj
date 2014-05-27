@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84323A9F192211D30072C8C1 /* MovieConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84323A9E192211D20072C8C1 /* MovieConverter.m */; };
+		84323AA2192221390072C8C1 /* MovieConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 84323AA1192221390072C8C1 /* MovieConversion.m */; };
+		84A04A5A192C9ED90038356E /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A04A50192C9ED80038356E /* RegexKitLite.m */; };
+		84A04A5C192CC8600038356E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A04A5B192CC8600038356E /* libicucore.dylib */; };
+		84CB4F1A191CB23E000FF019 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CB4F19191CB23E000FF019 /* Cocoa.framework */; };
+		84CB4F24191CB23E000FF019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CB4F22191CB23E000FF019 /* InfoPlist.strings */; };
+		84CB4F26191CB23E000FF019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB4F25191CB23E000FF019 /* main.m */; };
+		84CB4F2A191CB23E000FF019 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84CB4F28191CB23E000FF019 /* Credits.rtf */; };
+		84CB4F2D191CB23E000FF019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB4F2C191CB23E000FF019 /* AppDelegate.m */; };
+		84CB4F30191CB23E000FF019 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CB4F2E191CB23E000FF019 /* MainMenu.xib */; };
+		84CB4F32191CB23E000FF019 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CB4F31191CB23E000FF019 /* Images.xcassets */; };
+		84CB4F39191CB23E000FF019 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CB4F38191CB23E000FF019 /* XCTest.framework */; };
+		84CB4F3A191CB23E000FF019 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CB4F19191CB23E000FF019 /* Cocoa.framework */; };
+		84CB4F42191CB23E000FF019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CB4F40191CB23E000FF019 /* InfoPlist.strings */; };
+		84CB4F44191CB23E000FF019 /* HandBrakeXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB4F43191CB23E000FF019 /* HandBrakeXTests.m */; };
+		84E9D7081922EECF00A71355 /* MovieConversionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9D7071922EECF00A71355 /* MovieConversionOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CB4F3B191CB23E000FF019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CB4F0E191CB23E000FF019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CB4F15191CB23E000FF019;
+			remoteInfo = HandBrakeX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84323A9D192211D20072C8C1 /* MovieConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConverter.h; sourceTree = "<group>"; };
+		84323A9E192211D20072C8C1 /* MovieConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConverter.m; sourceTree = "<group>"; };
+		84323AA0192221390072C8C1 /* MovieConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConversion.h; sourceTree = "<group>"; };
+		84323AA1192221390072C8C1 /* MovieConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConversion.m; sourceTree = "<group>"; };
+		84A04A4E192C9ED80038356E /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
+		84A04A50192C9ED80038356E /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "RegexKitLite-4.0/RegexKitLite.m"; sourceTree = "<group>"; };
+		84A04A5B192CC8600038356E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		84CB4F16191CB23E000FF019 /* HandBrakeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandBrakeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB4F19191CB23E000FF019 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84CB4F1C191CB23E000FF019 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84CB4F1D191CB23E000FF019 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84CB4F1E191CB23E000FF019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84CB4F21191CB23E000FF019 /* HandBrakeX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandBrakeX-Info.plist"; sourceTree = "<group>"; };
+		84CB4F23191CB23E000FF019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84CB4F25191CB23E000FF019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CB4F27191CB23E000FF019 /* HandBrakeX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HandBrakeX-Prefix.pch"; sourceTree = "<group>"; };
+		84CB4F29191CB23E000FF019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		84CB4F2B191CB23E000FF019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CB4F2C191CB23E000FF019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CB4F2F191CB23E000FF019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84CB4F31191CB23E000FF019 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84CB4F37191CB23E000FF019 /* HandBrakeXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandBrakeXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB4F38191CB23E000FF019 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84CB4F3F191CB23E000FF019 /* HandBrakeXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandBrakeXTests-Info.plist"; sourceTree = "<group>"; };
+		84CB4F41191CB23E000FF019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84CB4F43191CB23E000FF019 /* HandBrakeXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandBrakeXTests.m; sourceTree = "<group>"; };
+		84E9D7061922EECF00A71355 /* MovieConversionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConversionOperation.h; sourceTree = "<group>"; };
+		84E9D7071922EECF00A71355 /* MovieConversionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConversionOperation.m; sourceTree = "<group>"; };
+		84E9D74F1922FBA700A71355 /* MovieConversion+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MovieConversion+Private.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CB4F13191CB23E000FF019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A04A5C192CC8600038356E /* libicucore.dylib in Frameworks */,
+				84CB4F1A191CB23E000FF019 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CB4F34191CB23E000FF019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB4F3A191CB23E000FF019 /* Cocoa.framework in Frameworks */,
+				84CB4F39191CB23E000FF019 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A04A43192C9ED70038356E /* RegexKitLite-4.0 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RegexKitLite-4.0";
+			sourceTree = "<group>";
+		};
+		84CB4F0D191CB23E000FF019 = {
+			isa = PBXGroup;
+			children = (
+				84CB4F1F191CB23E000FF019 /* HandBrakeX */,
+				84CB4F3D191CB23E000FF019 /* HandBrakeXTests */,
+				84CB4F18191CB23E000FF019 /* Frameworks */,
+				84CB4F17191CB23E000FF019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CB4F17191CB23E000FF019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CB4F16191CB23E000FF019 /* HandBrakeX.app */,
+				84CB4F37191CB23E000FF019 /* HandBrakeXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CB4F18191CB23E000FF019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A04A5B192CC8600038356E /* libicucore.dylib */,
+				84CB4F19191CB23E000FF019 /* Cocoa.framework */,
+				84CB4F38191CB23E000FF019 /* XCTest.framework */,
+				84CB4F1B191CB23E000FF019 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84CB4F1B191CB23E000FF019 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CB4F1C191CB23E000FF019 /* AppKit.framework */,
+				84CB4F1D191CB23E000FF019 /* CoreData.framework */,
+				84CB4F1E191CB23E000FF019 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84CB4F1F191CB23E000FF019 /* HandBrakeX */ = {
+			isa = PBXGroup;
+			children = (
+				84CB4F2B191CB23E000FF019 /* AppDelegate.h */,
+				84CB4F2C191CB23E000FF019 /* AppDelegate.m */,
+				84323A9D192211D20072C8C1 /* MovieConverter.h */,
+				84323A9E192211D20072C8C1 /* MovieConverter.m */,
+				84E9D7061922EECF00A71355 /* MovieConversionOperation.h */,
+				84E9D7071922EECF00A71355 /* MovieConversionOperation.m */,
+				84323AA0192221390072C8C1 /* MovieConversion.h */,
+				84323AA1192221390072C8C1 /* MovieConversion.m */,
+				84E9D74F1922FBA700A71355 /* MovieConversion+Private.h */,
+				84A04A43192C9ED70038356E /* RegexKitLite-4.0 */,
+				84A04A4E192C9ED80038356E /* RegexKitLite.h */,
+				84A04A50192C9ED80038356E /* RegexKitLite.m */,
+				84CB4F2E191CB23E000FF019 /* MainMenu.xib */,
+				84CB4F31191CB23E000FF019 /* Images.xcassets */,
+				84CB4F20191CB23E000FF019 /* Supporting Files */,
+			);
+			path = HandBrakeX;
+			sourceTree = "<group>";
+		};
+		84CB4F20191CB23E000FF019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CB4F21191CB23E000FF019 /* HandBrakeX-Info.plist */,
+				84CB4F22191CB23E000FF019 /* InfoPlist.strings */,
+				84CB4F25191CB23E000FF019 /* main.m */,
+				84CB4F27191CB23E000FF019 /* HandBrakeX-Prefix.pch */,
+				84CB4F28191CB23E000FF019 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CB4F3D191CB23E000FF019 /* HandBrakeXTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CB4F43191CB23E000FF019 /* HandBrakeXTests.m */,
+				84CB4F3E191CB23E000FF019 /* Supporting Files */,
+			);
+			path = HandBrakeXTests;
+			sourceTree = "<group>";
+		};
+		84CB4F3E191CB23E000FF019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CB4F3F191CB23E000FF019 /* HandBrakeXTests-Info.plist */,
+				84CB4F40191CB23E000FF019 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CB4F15191CB23E000FF019 /* HandBrakeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CB4F47191CB23E000FF019 /* Build configuration list for PBXNativeTarget "HandBrakeX" */;
+			buildPhases = (
+				84CB4F12191CB23E000FF019 /* Sources */,
+				84CB4F13191CB23E000FF019 /* Frameworks */,
+				84CB4F14191CB23E000FF019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandBrakeX;
+			productName = HandBrakeX;
+			productReference = 84CB4F16191CB23E000FF019 /* HandBrakeX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CB4F36191CB23E000FF019 /* HandBrakeXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CB4F4A191CB23E000FF019 /* Build configuration list for PBXNativeTarget "HandBrakeXTests" */;
+			buildPhases = (
+				84CB4F33191CB23E000FF019 /* Sources */,
+				84CB4F34191CB23E000FF019 /* Frameworks */,
+				84CB4F35191CB23E000FF019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CB4F3C191CB23E000FF019 /* PBXTargetDependency */,
+			);
+			name = HandBrakeXTests;
+			productName = HandBrakeXTests;
+			productReference = 84CB4F37191CB23E000FF019 /* HandBrakeXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CB4F0E191CB23E000FF019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jinmingtao;
+				TargetAttributes = {
+					84CB4F36191CB23E000FF019 = {
+						TestTargetID = 84CB4F15191CB23E000FF019;
+					};
+				};
+			};
+			buildConfigurationList = 84CB4F11191CB23E000FF019 /* Build configuration list for PBXProject "HandBrakeX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CB4F0D191CB23E000FF019;
+			productRefGroup = 84CB4F17191CB23E000FF019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CB4F15191CB23E000FF019 /* HandBrakeX */,
+				84CB4F36191CB23E000FF019 /* HandBrakeXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CB4F14191CB23E000FF019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB4F24191CB23E000FF019 /* InfoPlist.strings in Resources */,
+				84CB4F32191CB23E000FF019 /* Images.xcassets in Resources */,
+				84CB4F2A191CB23E000FF019 /* Credits.rtf in Resources */,
+				84CB4F30191CB23E000FF019 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CB4F35191CB23E000FF019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB4F42191CB23E000FF019 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CB4F12191CB23E000FF019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB4F2D191CB23E000FF019 /* AppDelegate.m in Sources */,
+				84323AA2192221390072C8C1 /* MovieConversion.m in Sources */,
+				84A04A5A192C9ED90038356E /* RegexKitLite.m in Sources */,
+				84323A9F192211D30072C8C1 /* MovieConverter.m in Sources */,
+				84CB4F26191CB23E000FF019 /* main.m in Sources */,
+				84E9D7081922EECF00A71355 /* MovieConversionOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CB4F33191CB23E000FF019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB4F44191CB23E000FF019 /* HandBrakeXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CB4F3C191CB23E000FF019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CB4F15191CB23E000FF019 /* HandBrakeX */;
+			targetProxy = 84CB4F3B191CB23E000FF019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CB4F22191CB23E000FF019 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CB4F23191CB23E000FF019 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84CB4F28191CB23E000FF019 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CB4F29191CB23E000FF019 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		84CB4F2E191CB23E000FF019 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CB4F2F191CB23E000FF019 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		84CB4F40191CB23E000FF019 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CB4F41191CB23E000FF019 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CB4F45191CB23E000FF019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84CB4F46191CB23E000FF019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84CB4F48191CB23E000FF019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				INFOPLIST_FILE = "HandBrakeX/HandBrakeX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84CB4F49191CB23E000FF019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				INFOPLIST_FILE = "HandBrakeX/HandBrakeX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84CB4F4B191CB23E000FF019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandBrakeX.app/Contents/MacOS/HandBrakeX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HandBrakeXTests/HandBrakeXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84CB4F4C191CB23E000FF019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandBrakeX.app/Contents/MacOS/HandBrakeX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandBrakeX/HandBrakeX-Prefix.pch";
+				INFOPLIST_FILE = "HandBrakeXTests/HandBrakeXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CB4F11191CB23E000FF019 /* Build configuration list for PBXProject "HandBrakeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB4F45191CB23E000FF019 /* Debug */,
+				84CB4F46191CB23E000FF019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CB4F47191CB23E000FF019 /* Build configuration list for PBXNativeTarget "HandBrakeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB4F48191CB23E000FF019 /* Debug */,
+				84CB4F49191CB23E000FF019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CB4F4A191CB23E000FF019 /* Build configuration list for PBXNativeTarget "HandBrakeXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB4F4B191CB23E000FF019 /* Debug */,
+				84CB4F4C191CB23E000FF019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CB4F0E191CB23E000FF019 /* Project object */;
+}
