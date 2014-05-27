@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		84323A9F192211D30072C8C1 /* MovieConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84323A9E192211D20072C8C1 /* MovieConverter.m */; };
 		84323AA2192221390072C8C1 /* MovieConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 84323AA1192221390072C8C1 /* MovieConversion.m */; };
+		8468921E1934B27400F2B360 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8468921D1934B27400F2B360 /* 1.jpg */; };
 		84A04A5A192C9ED90038356E /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A04A50192C9ED80038356E /* RegexKitLite.m */; };
 		84A04A5C192CC8600038356E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A04A5B192CC8600038356E /* libicucore.dylib */; };
 		84C7CA251934A47100749824 /* backboard_0 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C7CA241934A47100749824 /* backboard_0 copy.png */; };
@@ -57,6 +58,7 @@
 		84323A9E192211D20072C8C1 /* MovieConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConverter.m; sourceTree = "<group>"; };
 		84323AA0192221390072C8C1 /* MovieConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieConversion.h; sourceTree = "<group>"; };
 		84323AA1192221390072C8C1 /* MovieConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieConversion.m; sourceTree = "<group>"; };
+		8468921D1934B27400F2B360 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		84A04A4E192C9ED80038356E /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
 		84A04A50192C9ED80038356E /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "RegexKitLite-4.0/RegexKitLite.m"; sourceTree = "<group>"; };
 		84A04A5B192CC8600038356E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -227,6 +229,7 @@
 		84D994E7193498A900C5978F /* Backboardandground */ = {
 			isa = PBXGroup;
 			children = (
+				8468921D1934B27400F2B360 /* 1.jpg */,
 				84C7CA241934A47100749824 /* backboard_0 copy.png */,
 				84D994E8193498A900C5978F /* backboard_0.png */,
 				84D994E9193498A900C5978F /* backboard_1.png */,
@@ -334,6 +337,7 @@
 				84D99502193498A900C5978F /* background_3.png in Resources */,
 				84C7CA251934A47100749824 /* backboard_0 copy.png in Resources */,
 				84D994FA193498A900C5978F /* backboard_3.png in Resources */,
+				8468921E1934B27400F2B360 /* 1.jpg in Resources */,
 				84D994FC193498A900C5978F /* backboard_5.png in Resources */,
 				84D99500193498A900C5978F /* background_1136.png in Resources */,
 				84D994F7193498A900C5978F /* backboard_0.png in Resources */,
